@@ -1,0 +1,116 @@
+html{color:#222;font-size:.925em}
+html,body{min-width:320px;padding:0;margin:0;background-color:#222}
+::-webkit-scrollbar-thumb{border-radius:1px!important}
+body > .grid{height:100%}
+.column{max-width:450px}
+.hidden-content{display:none!important}
+body.pushable > .pusher{background:#222}
+.ui.table{color:#333!important;font-weight:500;border:none!important;line-height:1.2285!important}
+.ui[class*="very compact"].table td{padding:.2rem .6rem}
+.ui.basic.table tbody tr.selected{background-color:#16ab39;color:#FFF}
+.ui.table tr td{border-color:rgba(255,255,255,.35)!important}
+.ui.basic.table tbody tr.itemObject{cursor:pointer}
+.ui.label{background-color:#EEE;padding:.3833em .433em 0;color:#2185D0!important;font-size:1.05rem!important;font-weight:700!important;overflow-wrap:break-word}
+.ui.fluid.image{padding:0 20px;margin:0 auto!important;width:auto!important}
+.ui.segments .ui.segment{width:50%;padding:0;background-color:#EEE;color:#333;padding:1rem;margin:6px 2px;overflow-y:auto}
+.ui.horizontal.segments{background-color:#CCC;margin:0;border-radius:0;padding:0 .15rem}
+.ui.basic.segment{margin:0;padding:0;overflow:hidden}
+.ui.menu{margin:0!important;border-radius:0}
+.ui.menu .item{padding:.46428571em .57142857em;overflow:hidden}
+.ui.inverted.menu .item:before{background:transparent}
+.ui.display.vertical.menu > .item:first-child{box-shadow:0 1px #DDD}
+.ui.vertical.menu .item:before{background:transparent}
+.ui.vertical.inverted.menu .item:before{background:none}
+.ui[class*="very wide"].left.sidebar,.ui[class*="very wide"].right.sidebar{width:50%;top:56px;background-color:#EEE}
+.ui.form textarea:not([rows]){font-family:'Tajawal',sans-serif;border-radius:1px;outline:none;font-weight:500;background-color:#EEE;color:#333;padding:0;border:none;overflow-y:auto;overflow-x:hidden;outline:none;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;resize:none}
+.ui.form .fields.error .field textarea,.ui.form .fields.error .field select,.ui.form .fields.error .field input:not([type]),.ui.form .fields.error .field input[type="date"],.ui.form .fields.error .field input[type="datetime-local"],.ui.form .fields.error .field input[type="email"],.ui.form .fields.error .field input[type="number"],.ui.form .fields.error .field input[type="password"],.ui.form .fields.error .field input[type="search"],.ui.form .fields.error .field input[type="tel"],.ui.form .fields.error .field input[type="time"],.ui.form .fields.error .field input[type="text"],.ui.form .fields.error .field input[type="file"],.ui.form .fields.error .field input[type="url"],.ui.form .field.error textarea,.ui.form .field.error select,.ui.form .field.error input:not([type]),.ui.form .field.error input[type="date"],.ui.form .field.error input[type="datetime-local"],.ui.form .field.error input[type="email"],.ui.form .field.error input[type="number"],.ui.form .field.error input[type="password"],.ui.form .field.error input[type="search"],.ui.form .field.error input[type="tel"],.ui.form .field.error input[type="time"],.ui.form .field.error input[type="text"],.ui.form .field.error input[type="file"],.ui.form .field.error input[type="url"]{background:#fffad3}
+.ui.form .field.error textarea:focus,.ui.form .field.error select:focus,.ui.form .field.error input:not([type]):focus,.ui.form .field.error input[type="date"]:focus,.ui.form .field.error input[type="datetime-local"]:focus,.ui.form .field.error input[type="email"]:focus,.ui.form .field.error input[type="number"]:focus,.ui.form .field.error input[type="password"]:focus,.ui.form .field.error input[type="search"]:focus,.ui.form .field.error input[type="tel"]:focus,.ui.form .field.error input[type="time"]:focus,.ui.form .field.error input[type="text"]:focus,.ui.form .field.error input[type="file"]:focus,.ui.form .field.error input[type="url"]:focus{background:#fffad3}
+h4.ui.header .sub.header .green{color:#21ba45}
+.ui.header > .image:not(.icon):only-child,.ui.header > img:only-child{margin-right:0}
+.ui.modal{border-radius:1px;background-color:#eaedf1}
+.ui.modal > .header{border-bottom:none}
+.ui.modal > .actions{border-top:none}
+.ui.modal > .header:not(.ui){background:#f9fafb;font-size:1.2em!important;font-weight:800;padding:1rem;text-align:center}
+.ui.modal > .content{text-align:center;font-size:1.1rem;font-weight:700;background-color:#eaedf1;background:#eaedf1!important}
+.ui.modal > .content p{line-height:1.1285em;margin-top:-4px}
+.ui.modal > .content p a{overflow-wrap:break-word;line-height:1}
+.ui.modal > .content a.download-text{overflow-wrap:break-word;font-size:.975em;color:#2185d0}
+.ui.modal > .content a.src-text{overflow-wrap:break-word;font-size:.975em;color:#2185d0}
+.ui.modal > .content a.dst-text{overflow-wrap:break-word;font-size:.975em;color:#2185d0}
+.ui.modal > .content a.lnk-text{overflow-wrap:break-word;font-size:.975em;color:#2185d0;cursor:pointer;text-decoration:underline}
+.ui.prop.modal > .content .ui.table{font-size:.89em}
+.ui.prop.modal > .content .ui.table thead th{padding-top:0;padding-bottom:.5em}
+.ui.prop.modal > .content .ui.table .ui.checkbox{margin-right:-12px}
+.ui.modal > .actions{padding:.55rem 1rem!important;background:#dae1e7}
+.ui.buttons .button,.ui.buttons .or,.ui.button{font-size:.95rem}
+.ui.compact.buttons .button,.ui.compact.button{padding:.58928571em .8em}
+.ui.button{border-radius:0!important;font-weight:700;line-height:1.2285em;padding:.88571429em 1.5em .68571429em}
+.ui.login.button{font-size:1.075em;font-weight:700}
+.ui.bars.button{position:fixed;bottom:10px;left:10px;z-index:10;border-radius:10em!important;line-height:.9;padding:.88571429em .78571429em .68571429em}
+.ui.menu:not(.vertical) .item > .button{padding-left:.75rem;padding-right:.75rem}
+.ui.menu .item > .input{width:auto;display:none}
+.ui.menu:not(.vertical) .right.item,.ui.menu:not(.vertical) .right.menu{padding-right:.57142857em}
+.ui.menu:not(.vertical) .right.item .item,.ui.menu:not(.vertical) .right.menu .item{padding-left:0;padding-right:0}
+.ui.display.sidebar{height:auto!important}
+.ui.sidebar.mobile.menu .top.item{padding-top:.375em}
+.ui.sidebar.mobile.menu .top.item img{-webkit-filter:grayscale(1);filter:grayscale(1)}
+.ui.sidebar.mobile.menu .item{font-weight:700;text-align:center;padding:.66428571em .57142857em}
+.ui.inverted.mobile.menu .item:before{background:rgba(255,255,255,.05)}
+.ui.right.floated.small.input{float:right!important}
+.ui.form input:not([type]),.ui.form input[type="date"],.ui.form input[type="datetime-local"],.ui.form input[type="email"],.ui.form input[type="number"],.ui.form input[type="password"],.ui.form input[type="search"],.ui.form input[type="tel"],.ui.form input[type="time"],.ui.form input[type="text"],.ui.form input[type="file"],.ui.form input[type="url"]{border-radius:1px;padding:.60857143em 1em .34857143em;font-size:1.175em}
+.ui.form input:not([type]):focus,.ui.form input[type="date"]:focus,.ui.form input[type="datetime-local"]:focus,.ui.form input[type="email"]:focus,.ui.form input[type="number"]:focus,.ui.form input[type="password"]:focus,.ui.form input[type="search"]:focus,.ui.form input[type="tel"]:focus,.ui.form input[type="time"]:focus,.ui.form input[type="text"]:focus,.ui.form input[type="file"]:focus,.ui.form input[type="url"]:focus{border-radius:1px;border:1px solid #DDD}
+.ui.menu .item > .input input{border:none!important}
+.ui.vertical.icon.menu{position:fixed;top:50%;right:0;margin-top:-73px!important;z-index:50;background:rgba(255,255,255,.4)}
+.ui.vertical.icon.menu .item{font-size:.75em}
+.ui.input.focus > input,.ui.input > input:focus{border:1px solid rgba(34,36,38,0.15)}
+.ui.input > input{border-radius:1px}
+.ui.login.input > input{font-weight:700;line-height:1.4285em;background-color:#444;border:1px solid #222;color:#DDD}
+.ui.login.input > input:focus{background-color:#333;border:1px solid #222;color:#EEE}
+.ui.icon.input > i.icon{font-size:.9em}
+.ui.action.input > .button,.ui.action.input > .buttons > .button{display:inline;margin-left:-35px;padding-top:.85571429em;padding-bottom:.79571429em}
+.ui.small.input span{padding-top:.6em;padding-left:.5em;padding-right:.5em;font-weight:700}
+.ui.menu .item > .input input{padding-top:.53142857em;padding-bottom:.53142857em}
+.ui.slider.checkbox .box,.ui.slider.checkbox label{padding-left:3.75rem}
+.ui.slider.checkbox{margin-right:1rem!important}
+.ui.login.segment{box-shadow:none;border:none;background-color:#222}
+.ui.modal .ui.basic.segment{margin:20px 0 0;overflow-wrap:break-word}
+.ui.modal .ui.basic.segment p{line-height:1.0285em;font-weight:500;font-size:.99rem;margin:0 0 .25em}
+.ui.modal .ui.basic.ini.segment{margin:0}
+.ui.modal .ui.basic.ini.segment a{text-decoration:underline}
+.ui.demo-upload{width:100%!important;background-color:#F8F8F8;border:2px dashed #999;color:rgba(0,0,0,0.87);padding:30px 20px;position:relative;overflow:hidden;border-radius:1px;text-align:center;cursor:pointer}
+.ui.demo-upload .input-upload{position:absolute;top:0;right:0;margin:0;padding:0;opacity:0;height:100%;width:100%;cursor:pointer;margin:2px}
+.ui.small.message{display:none;position:fixed;top:0;left:0;width:100%;z-index:1002!important;margin:0;border-radius:1px;padding:.9em 1.5em;font-size:1.1em;box-shadow:none}
+.ui.small.message h4{margin:0 auto;float:none;text-align:center}
+.ui.small.success.message h4{color:#fbfdef}
+.ui.small.error.message h4{color:#f2711c}
+.ui.popup{line-height:1.2285em;border-radius:1px;padding:.883em 1em .583em!important}
+@media only screen and (max-width: 480px) {
+.tiny-device{display:none!important}
+.tablet-device{display:none!important}
+.mobile-device{display:none!important}
+.ui.vertical.icon.menu{margin-top:-49px!important}
+.ui[class*="very wide"].left.sidebar,.ui[class*="very wide"].right.sidebar{width:100%;top:49px}
+}
+@media only screen and (max-width: 767px) {
+.tablet-device{display:none!important}
+.mobile-device{display:none!important}
+.ui.vertical.icon.menu{margin-top:-49px!important}
+.ui[class*="very wide"].left.sidebar,.ui[class*="very wide"].right.sidebar{width:100%;top:49px}
+.ui.mini.modal{max-width:360px}
+.ui.modal .actions > .buttons,.ui.modal .actions > .button{margin-bottom:0}
+.ui.table:not(.unstackable) tr{padding-top:.25em!important;padding-bottom:.25em!important}
+.ui.basic.table tbody tr{border-bottom:none}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.tablet-device{display:none!important}
+.ui.icon.bars.black.button{display:none}
+.ui.table th.two.wide,.ui.table td.two.wide{width:18.75%}
+.ui[class*="very wide"].left.sidebar,.ui[class*="very wide"].right.sidebar{width:100%}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+.tablet-device{display:none}
+.ui.icon.bars.black.button{display:none}
+}
+@media only screen and (min-width: 1200px) {
+.ui.icon.bars.black.button{display:none}
+}
