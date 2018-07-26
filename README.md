@@ -86,3 +86,6 @@
                     </ul>
                 </li>
             </ul>
+
+# License
+MIT @ <a href="https://rashedhasan.ca">Rashed Hasan</a>
